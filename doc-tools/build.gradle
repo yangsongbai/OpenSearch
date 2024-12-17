@@ -9,4 +9,5 @@ base {
 
 repositories {
     mavenCentral()
+    gradlePluginPortal()
 }
