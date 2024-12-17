@@ -124,6 +124,14 @@ To build a distribution to run on your local platform, run:
 
 All distributions built will be under `distributions/archives`.
 
+```
+./gradlew :distribution:archives:darwin-tar:assemble  -Dbuild.snapshot=false
+./gradlew :distribution:archives:darwin-arm64-tar:assemble  -Dbuild.snapshot=false
+./gradlew :distribution:archives:linux-arm64-tar:assemble  -Dbuild.snapshot=false
+./gradlew :distribution:archives:linux-tar:assemble  -Dbuild.snapshot=false
+./gradlew :distribution:archives:windows-zip:assemble  -Dbuild.snapshot=false
+```
+
 #### Generated Code
 
 OpenSearch uses code generators like [Protobuf](https://protobuf.dev/).

@@ -40,6 +40,7 @@ repositories {
     }
   }
   mavenCentral()
+  gradlePluginPortal()
 }
 
 repositories {
@@ -54,6 +55,7 @@ repositories {
     }
   }
   mavenCentral()
+  gradlePluginPortal()
 }
 
 // todo remove offending rules
